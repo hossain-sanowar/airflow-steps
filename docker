@@ -34,7 +34,16 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.4.2/docker-compose.y
 ```
 mkdir -p ./dags ./logs ./plugins
 ```
-6. docker compose initiate
+6. Initialize the database
 ```
 docker-compose up airflow-init
 ```
+7. run docker compose 
+```
+docker-compose up
+```
+8. check docker status
+```
+docker ps
+```
+9. user name and password
