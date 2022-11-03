@@ -1,6 +1,8 @@
 # airflow-steps
 I am going to introduce Apache Airflow and describe how to install airflow locally in a Python environment so that airflow may operate on your local machine.
 
+https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html
+
  - Introduction
 - Create the Airflow project folder
 - Create a local python environment
