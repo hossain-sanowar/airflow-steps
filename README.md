@@ -62,4 +62,4 @@ airflow users create --username admin --firstname firstname --lastname lastname 
 export AIRFLOW_HOME=/Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflow_tutorial
 source py_env/bin/activate
 airflow scheduler
-
+```
