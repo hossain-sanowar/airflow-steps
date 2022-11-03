@@ -3,8 +3,8 @@
 
 Today I will demonstrate how to install Apache Airflow 2.0 on Docker step by step.
 
-What is Docker and Docker Compose
-How to run Airflow in Docker
+👉 What is Docker and Docker Compose
+👉 How to run Airflow in Docker
 
 - What is Docker
 - Install Docker and Docker Compose
