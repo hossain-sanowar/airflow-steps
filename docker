@@ -1,6 +1,8 @@
 
 # Running Airflow 2.0 in Docker
 
+https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#running-airflow-in-docker
+
 Today I will demonstrate how to install Apache Airflow 2.0 on Docker step by step.
 
 👉 What is Docker and Docker Compose
@@ -12,3 +14,27 @@ Today I will demonstrate how to install Apache Airflow 2.0 on Docker step by ste
 - Download and customize the docker-compose.yaml file
 - Initialize the Airflow DB
 - Launch the Airflow in Docker
+#1. check current path
+```
+ls
+pwd
+path
+```
+2. check docker status
+```
+ docker --version
+ docker-compose --version
+ ```
+3. install docker-compose.yaml
+```
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.4.2/docker-compose.yaml'
+```
+4. remove some unnecessary file
+5. create dags
+```
+mkdir -p ./dags ./logs ./plugins
+```
+6. docker compose initiate
+```
+docker-compose up airflow-init
+```
