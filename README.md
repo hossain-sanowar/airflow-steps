@@ -1,5 +1,15 @@
 # airflow-steps
-This project is going to create airflow using Apache airflow 
+I am going to introduce Apache Airflow and describe how to install airflow locally in a Python environment so that airflow may operate on your local machine.
+
+ - Introduction
+- Create the Airflow project folder
+- Create a local python environment
+- Install Airflow and its dependencies via pip
+- Export Airflow Home and init the DB
+- Launch the airflow webserver
+- Create a username and password
+- Start the airflow scheduler 
+
 # Steps:
 1. Create folder
 2. Basic command for check directory
