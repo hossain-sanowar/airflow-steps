@@ -75,3 +75,54 @@ export AIRFLOW_HOME=/Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflo
 source py_env/bin/activate
 airflow scheduler
 ```
+#------------------------------------------------------------------------------------------------------------------------------
+#Docker
+
+# Running Airflow 2.0 in Docker
+
+https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#running-airflow-in-docker
+
+Today I will demonstrate how to install Apache Airflow 2.0 on Docker step by step.
+
+👉 What is Docker and Docker Compose
+👉 How to run Airflow in Docker
+
+- What is Docker
+- Install Docker and Docker Compose
+- Create a local python environment
+- Download and customize the docker-compose.yaml file
+- Initialize the Airflow DB
+- Launch the Airflow in Docker
+#1. check current path
+```
+ls
+pwd
+path
+```
+2. check docker status
+```
+ docker --version
+ docker-compose --version
+ ```
+3. install docker-compose.yaml
+```
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.4.2/docker-compose.yaml'
+```
+4. remove some unnecessary file
+5. create dags
+```
+mkdir -p ./dags ./logs ./plugins
+```
+6. Initialize the database
+```
+docker-compose up airflow-init
+```
+7. run docker compose 
+```
+docker-compose up
+```
+8. check docker status
+```
+docker ps
+```
+9. user name and password
