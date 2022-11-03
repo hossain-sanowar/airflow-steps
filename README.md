@@ -6,6 +6,7 @@ This project is going to create airflow using Apache airflow
 ```
 ls
 pwd
+path= /Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflow_tutorial
 python3 --version
 ```
 3. create environment
@@ -21,10 +22,23 @@ pip install 'apache-airflow==2.4.2' \
  ```
  5. install sqlight database
  ```
+ #create path
+ #this is for linux
  export AIRFLOW_HOME=.
+ #mac user
+ export AIRFLOW_HOME=path
+ export AIRFLOW_HOME=/Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflow_tutorial
+ ```
+ 5.1 alnative way
+ ```
+ mkdir airflow_new
+ 
+ AIRFLOW_TUTORIAL=/Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflow_tutorial/airflow_new
+ sudo chmod -R 777 ../airflow_new
  airflow db init
  ```
  6. create airflow webserver
  ```
- airflow webserver -p 8082
+ airflow webserver -p 8080
+ airflow standalone
  ```
