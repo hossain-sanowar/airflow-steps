@@ -29,10 +29,10 @@ pip install 'apache-airflow==2.4.2' \
  export AIRFLOW_HOME=path
  export AIRFLOW_HOME=/Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflow_tutorial
  ```
- 5.1 alnative way
+ 5.1 alternative way
  ```
  mkdir airflow_new
- 
+ AIRFLOW_TUTORIAL={pwd}
  AIRFLOW_TUTORIAL=/Users/mdsanowarhossain/Documents/Project_Pro/airflow/airflow_tutorial/airflow_new
  sudo chmod -R 777 ../airflow_new
  airflow db init
