@@ -127,7 +127,8 @@ docker ps
 ```
 9. user name and password
 
-#=====================================================================BashOperator======================================
+# BashOperator
+#========================================BashOperator======================================
 I will demonstrate how to build our first dag by use the bash operator
 👉 How to create a dag and set parameters as your need
 👉 Define tasks using BashOperator
