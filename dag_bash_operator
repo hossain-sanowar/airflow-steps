@@ -1,0 +1,23 @@
+I will demonstrate how to build our first dag by use the bash operator
+👉 How to create a dag and set parameters as your need
+👉 Define tasks using BashOperator
+👉 How to build the task dependencies
+
+- Launch airflow using docker
+- Remove all the airflow example dags
+- Create our first dag and set the parameters
+- Create dag tasks using bash operator
+- Trigger our first dag run 
+- Define multiple tasks for the dag
+- Three different ways to build tasks dependencies
+
+1. Remove all airflow 
+```
+docker-compose down -v
+```
+2. change parameter and reload the page
+```
+AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+docker-compose up airflow-init
+docker-compose up -d 
+```
