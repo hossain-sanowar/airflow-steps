@@ -259,4 +259,6 @@ schedule_interval='@daily'
         python_callable=get_age
     )
     [task2, task3] >> task1
-```
+    
+   ```
+   
