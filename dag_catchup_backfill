@@ -8,3 +8,8 @@ I will demonstrate the airflow catchup and backfill that are necessary for you t
 - Disable catchup by setting it to False
 - Using backfill command to fill dag run in the past
 - Backfilled dag run displayed in the airflow ui
+
+Change time interval in docker:
+- docker ps
+- docker exec -it 12feb3857af0 bash
+- airflow dags backfill -s 2022-11-05 -e 2022-11-13 dag_with_catchup_backfill_v02
