@@ -1,0 +1,17 @@
+#Airflow AWS S3 Sensor Operator
+I am going to show you how to sensor files in AWS S3 Bucket. 
+👉 How to set up local S3 service
+👉 How to sense file in S3 bucket
+
+- What is Sensor Operator: a special type of operator which waits for something to occur
+Use Case: Don't know exact time when the file exists
+- What is MinIO: Sensor problem is solved by AWS S3 MinIO
+- Setup MinIO in Docker container
+- Create bucket and upload file
+- Create Airflow Dag
+- Check Amazon provider package doc
+- Setup S3 sensor task
+- S3 Sensor in practice
+
+##minio documents
+https://min.io/docs/minio/container/index.html
