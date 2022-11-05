@@ -12,3 +12,22 @@ I will explain Airflow Connection and how to use it using Postgres Operator.
 - Insert values use Postgres Operator
 - Airflow DAG best practice
 
+# add ports in docker compose for postgres
+    ports:
+      - 5432:5432
+      
+# docker-compose upgrade
+docker-compose up -d --no-deps --build postgres
+
+# install DBeaver
+https://dbeaver.io/download/
+Brew Cask (brew install --cask dbeaver-community)
+MacPorts (sudo port install dbeaver-community)
+
+### Setup Postgres Databage
+1. connection test
+2. create new database: test
+3. delete database
+
+## airflow macrows documentation
+https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
