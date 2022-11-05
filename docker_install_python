@@ -1,0 +1,15 @@
+Airflow docker install python packages:
+I am going to show you two ways to install python requirements into the airflow docker container: Airflow docker image extending and customizing.
+👉 What is Docker image extending and customizing
+👉 Airflow docker install python packages via image extending
+👉 Airflow docker install python packages via image customizing
+👉 When to use image extending when to use image customizing
+
+- What is Docker image extending and customizing
+- Install python requirements via extending airflow docker image
+- Install python requirements via customizing airflow docker image
+- When to use image extending or customizing
+
+There are two ways to install python dependencies for airflow docker container
+a) Image Extending
+b) Image Customising
