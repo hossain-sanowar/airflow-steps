@@ -1,0 +1,11 @@
+# Airflow Scheduler with Cron Expression: 
+I will demonstrate how to schedule the Airflow DAG at any time using the Cron Expression.
+👉 What is Cron Expression
+👉 How to create customized Cron Expression
+👉 Cron Expression in Airflow DAG
+
+- What is Cron Expression
+- Schedule DAG use Cron Expression Presets
+- Create customized Cron Expression use crontab.guru 
+- Schedule DAG weekly use Cron Expression
+- Customize Cron Expression to meet your need 
