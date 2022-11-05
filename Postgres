@@ -1,0 +1,14 @@
+Airflow Connection connect to Postgres:
+I will explain Airflow Connection and how to use it using Postgres Operator. 
+👉 What is Airflow Connection
+👉 How to use Postgres Operator to connect with Postgres DB
+👉 Best Practice for building Airflow DAG
+
+- What is Airflow Connection
+- Manage Connections in Airflow Webserver UI
+- Expose the Postgres Database ports
+- Create a database using DBeaver
+- Connect to Postgres
+- Insert values use Postgres Operator
+- Airflow DAG best practice
+
