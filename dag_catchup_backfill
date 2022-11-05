@@ -1,0 +1,10 @@
+I will demonstrate the airflow catchup and backfill that are necessary for you to run dag in historical time.
+👉 What are the catchup and backfill
+👉 How to use catchup
+👉 How to use backfill
+
+- Create a simple Airflow DAG
+- Set start date in the past and enable catchup
+- Disable catchup by setting it to False
+- Using backfill command to fill dag run in the past
+- Backfilled dag run displayed in the airflow ui
