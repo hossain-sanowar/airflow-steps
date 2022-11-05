@@ -16,3 +16,8 @@ I will demonstrate how to schedule the Airflow DAG at any time using the Cron Ex
 There are two options to create schedule a) datetime.timedelta, b) Cron Expression
 b) Cron Expression: A cron expression is a string comprising five fields separated by white space that represents a set of times. 
 normally as a schedule to execute some routine
+
+# Online create cron expression:
+- Create customized Cron Expression use crontab.guru 
+https://crontab.guru/
+0 3 * * Tue-Fri
